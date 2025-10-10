@@ -2,8 +2,8 @@
 # Task: Practical exercise of Grade A
 
 ## Team
-- Lucas Cardoso
-- Lucas Renato Schmitt 
+- Gustavo Deves Bueno
+- Leonardo Trevisol  
 - Pedro Henrique Bassani
 
 ## Prerequisites and Dependencies
@@ -117,8 +117,8 @@ The task below is currently completed and it is ready to use:
 ## Tarefa: Trabalho prático do Grau A
 
 ## Equipe
-- Lucas Cardoso
-- Lucas Renato Schmitt 
+- Gustavo Deves Bueno
+- Leonardo Trevisol  
 - Pedro Henrique Bassani
 
 ## Pré requisitos e dependências
