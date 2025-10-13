@@ -19,10 +19,17 @@
 
 Currently, all tasks from this list are completed and solved:
 
+Part 1
 - [x] Task 1
 - [x] Task 2
 - [x] Task 3
+- [x] Task 4
+- [x] Task 5
 
+Part 2
+- [x] Task 6
+- [x] Task 7
+      
 ## References and/or Credits
 >
 > Credits to professor ROSSANA BAPTISTA QUEIROZ,  
@@ -51,9 +58,16 @@ Currently, all tasks from this list are completed and solved:
 
 Atualmente todas as tarefas estão concluidas e resolvidas desta lista:
 
+Parte 1
 - [x] Tarefa 1
 - [x] Tarefa 2
 - [x] Tarefa 3
+- [x] Tarefa 4
+- [x] Tarefa 5
+
+Parte 2
+- [x] Tarefa 6
+- [x] Tarefa 7
 
 ## Referências e/ou créditos
 >
