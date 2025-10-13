@@ -19,9 +19,13 @@
 
 Currently, all tasks from this list are completed and solved:
 
+Part 1
 - [x] Task 1
 - [x] Task 2
 - [x] Task 3
+
+Part 2
+- [x] Task 4
 
 ## References and/or Credits
 >
@@ -51,9 +55,13 @@ Currently, all tasks from this list are completed and solved:
 
 Atualmente todas as tarefas estão concluidas e resolvidas desta lista:
 
+Parte 1
 - [x] Tarefa 1
 - [x] Tarefa 2
 - [x] Tarefa 3
+
+Parte 2
+- [x] Tarefa 4
 
 ## Referências e/ou créditos
 >
