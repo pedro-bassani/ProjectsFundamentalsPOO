@@ -1,5 +1,5 @@
 [EN] Portuguese below
-# Task: Exercise List 1 POO
+# Task: Exercise List 4 POO
 
 ## Team
 - Pedro Henrique Bassani
@@ -29,7 +29,7 @@ Currently, all tasks from this list are completed and solved:
 <br>
 
 [PT-BR]
-## Tarefa: Lista de Exercícios 1 OOP
+## Tarefa: Lista de Exercícios 4 OOP
 
 ## Equipe
 - Pedro Henrique Bassani
