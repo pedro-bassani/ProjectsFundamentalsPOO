@@ -1,5 +1,5 @@
 [EN] Portuguese below
-# Task: Exercise List 1 POO
+# Task: Exercise List 2 POO
 
 ## Team
 - Pedro Henrique Bassani
@@ -38,7 +38,7 @@ Part 2
 <br>
 
 [PT-BR]
-## Tarefa: Lista de Exercícios 1 OOP
+## Tarefa: Lista de Exercícios 2 OOP
 
 ## Equipe
 - Pedro Henrique Bassani
