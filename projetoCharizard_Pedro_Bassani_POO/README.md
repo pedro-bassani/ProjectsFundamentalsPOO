@@ -1,9 +1,7 @@
 [EN] Portuguese below
-# Task: Practical exercise of Grade A
+# Task: Practical exercise of Grade B
 
 ## Team
-- Lucas Cardoso
-- Lucas Renato Schmitt 
 - Pedro Henrique Bassani
 
 ## Prerequisites and Dependencies
@@ -15,96 +13,53 @@
 
 - The Objective:
 
-  The objective of this assignment is to develop a C/C++ program that simulates a virtual sticker album application, with data persistence using tab-delimited text files (.csv).
-The project reinforces concepts such as data input/output, structures (classes/structs), collections (arrays/lists), selection commands (if/else), loops (while/for), functions/methods, and file handling (read/write).
+  The main goal of this project is to demonstrate mastery of advanced Object-Oriented Programming concepts, applied to the evolutionary context of the Charmander → Charmeleon → Charizard lineage.
 <br>
 
 - The Description:
 
-  You must implement a Virtual Sticker Album System (no GUI required, console is fine).
-  At startup, the program should load data from three files:
-    - usuarios.csv (users),
-    - figurinhas.csv (stickers),
-    - trocas.csv (trades).
+  This repository contains the implementation of the Pokémon Evolution Manager, a C++ system developed as a practical assignment for the Object-Oriented Algorithms and Programming course at UNISINOS.
+<br>
+The system makes use of:
+<br>
+<b> Implemented Concepts </b>
+
+- Multiple Inheritance
   
-  Then, display an initial menu with:
-
-    1- New Album → register user and password.
-
-    2- Access Album → login and open the album management menu.
-
-    3- Exit Application → save all updates back to the files.
+- Virtual Inheritance to avoid the diamond problem
+  
+- Factory Method Design Pattern
+  
+- Polymorphism and virtual destructors
+  
+- Manual memory management using new and delete
+  
+- State persistence across evolutions via PokemonState
 <br>
+<b> Features </b>
 
-- Functional Requirements (checklist):
+(1) Capturing a new Pokémon (Charmander)
 
-  - [x] Create user.
+(2) Destructive evolution, creating a new object and discarding the previous one
 
-  - [x] Login and load album.
+(3) Printing detailed information for each evolution stage
 
-  - [x] Browse pages and display sticker states.
+(4) Complete demonstration in <code>main.cpp</code>, including a Pokémon backpack system
 
-  - [x] List unpasted stickers.
-
-  - [x] Paste stickers.
-
-  - [x] Mark stickers for trade.
-
-  - [x] Propose trades.
-
-  - [x] Review trades (accept/reject).
-
-  - [x] Open sticker pack (3 random stickers).
-
-  - [x] Save changes before exit.
+<b> Overall Architecture </b>
 <br>
+The project follows the class diagram defined in the assignment, including:
 
-- Main Screens and Options (functional flow):
-
-  <b>Initial Screen</b>
-
-    (1) Create a new user (new album).
-
-    (2) Access album (login → load user data → open “Manage Album”).
-
-    (3) Exit and save changes to files.
-
-  <b>Manage Album</b>
-
-    (1) View Album → browse pages (each page = category, up to 10 stickers).
-
-    (2) Manage Collection → show unpasted stickers and open collection actions.
-
-    (3) Open Sticker Pack → randomly get 3 stickers, add to collection.
-
-    (4) Back.
-
-  <b>Manage Collection</b>
-
-    (1) Paste sticker → mark as “pasted” if available.
-
-    (2) Make sticker available for trade.
-
-    (3) Propose trade → choose partner, sticker you want, sticker you offer.
-
-    (4) Review trades → accept or reject received proposals; apply exchange if accepted.
-
-    (5) Back.
-<br>
-
- - Expected Input/Output:
-
-    - Input: menu options, sticker numbers, login credentials.
-
-    - Output: album pages, collection lists, new stickers from packs, confirmation of trades, etc.
-
-    - Files: all data persists between runs.
+ - [x] Pokemon (abstract base class)
+ - [x] FirePokemon and FlyingPokemon (virtual inheritance)
+ - [x] Charmander, Charmeleon, Charizard
+ - [x] EvolutionManager (Factory + evolution control)
 
 ## Adjustments and Improvements
 
 The task below is currently completed and it is ready to use:
 
-- [x] Exercise GA
+- [x] Exercise GB project
 
 ## References and/or Credits
 >
@@ -114,11 +69,9 @@ The task below is currently completed and it is ready to use:
 <br>
 
 [PT-BR]
-## Tarefa: Trabalho prático do Grau A
+## Tarefa: Trabalho prático do Grau B
 
 ## Equipe
-- Lucas Cardoso
-- Lucas Renato Schmitt 
 - Pedro Henrique Bassani
 
 ## Pré requisitos e dependências
@@ -130,103 +83,48 @@ The task below is currently completed and it is ready to use:
 
 - O Objetivo:
 
-O objetivo deste trabalho é desenvolver um programa em C/C++ que simule um aplicativo de álbum de figurinhas virtual, com persistência de dados utilizando arquivos de texto tabulados (.csv).
-O projeto reforça conceitos como entrada/saída de dados, estruturas (classes/structs), coleções (vetores/listas), comandos de seleção (if/else), laços (while/for), funções/métodos e manipulação de arquivos (leitura/escrita).
+O objetivo principal do projeto é demonstrar domínio de conceitos avançados de Programação Orientada a Objetos, aplicados no contexto evolutivo da linha Charmander → Charmeleon → Charizard.
+
 
 <br>
 
 - A Descrição:
 
-Você deve implementar um Sistema de Álbum de Figurinhas Virtual (não é necessário GUI, o console é suficiente).
-Na inicialização, o programa deve carregar os dados de três arquivos:
-  - usuarios.csv (usuários),
-
-  - figurinhas.csv (figurinhas),
-
-  - trocas.csv (trocas).
-
-Em seguida, exibir um menu inicial com:
-
-1- Novo Álbum → cadastrar usuário e senha.
-
-2- Acessar Álbum → login e abrir o menu de gerenciamento do álbum.
-
-3- Sair do Aplicativo → salvar todas as atualizações de volta nos arquivos.
-
+Este repositório contém a implementação do Gerenciador de Evolução Pokémon, um sistema em C++ desenvolvido como exercício prático da disciplina Algoritmos e Programação: Orientação a Objetos da UNISINOS.
 <br>
-
-Requisitos Funcionais (checklist):
-
- - [x] Criar usuário.
-
- - [x] Login e carregar álbum.
-
- - [x] Folhear páginas e exibir estados das figurinhas.
-
- - [x] Listar figurinhas não coladas.
-
- - [x] Colar figurinhas.
-
- - [x] Marcar figurinhas para troca.
-
- - [x] Propor trocas.
-
- - [x] Revisar trocas (aceitar/recusar).
-
- - [x] Abrir pacote de figurinhas (3 figurinhas aleatórias).
-
- - [x] Salvar alterações antes de sair.
-
+O sistema faz uso de:
 <br>
-
-Principais Telas e Opções (fluxo funcional):
-
-<b>Tela Inicial</b>
-
-(1) Criar um novo usuário (novo álbum).
-
-(2) Acessar álbum (login → carregar dados do usuário → abrir “Gerenciar Álbum”).
-
-(3) Sair e salvar alterações nos arquivos.
-
-<b>Gerenciar Álbum</b>
-
-(1) Ver Álbum → folhear páginas (cada página = categoria, até 10 figurinhas).
-
-(2) Gerenciar Coleção → mostrar figurinhas não coladas e abrir ações da coleção.
-
-(3) Abrir Pacote de Figurinhas → sortear 3 figurinhas aleatórias, adicionar à coleção.
-
-(4) Voltar.
-
-<b>Gerenciar Coleção</b>
-
-(1) Colar figurinha → marcar como “colada” se disponível.
-
-(2) Disponibilizar figurinha para troca.
-
-(3) Propor troca → escolher parceiro, figurinha desejada e figurinha ofertada.
-
-(4) Revisar trocas → aceitar ou recusar propostas recebidas; aplicar a troca se aceita.
-
-(5) Voltar.
-
+<b> Conceitos Implementados </b>
+- Herança Múltipla
+- Herança Virtual para evitar o problema do diamante
+- Padrão de Projeto Factory Method
+- Polimorfismo e destrutores virtuais
+- Gerenciamento manual de memória usando new e delete
+- Persistência de estado através de evoluções via PokemonState
 <br>
+<b> Funcionalidades </b>
 
-Entradas/Saídas Esperadas:
+(1) Captura de um novo Pokémon (Charmander)
 
-Entrada: opções de menu, números de figurinhas, credenciais de login.
+(2) Evolução destrutiva, criando um novo objeto e descartando o anterior
 
-Saída: páginas do álbum, listas da coleção, novas figurinhas de pacotes, confirmações de colagem e trocas, etc.
+(3) Impressão de informações específicas de cada estágio da evolução
 
-Arquivos: todos os dados persistem entre execuções.
+(4) Demonstração completa no main.cpp, incluindo mochila de Pokémons
+<br>
+<b> Arquitetura Geral </b>
 
+O projeto segue o diagrama de classes definido no enunciado, incluindo:
+- [x] Pokemon (classe base abstrata)
+- [x] FirePokemon e FlyingPokemon (herança virtual)
+- [x] Charmander, Charmeleon, Charizard
+- [x] EvolutionManager (Factory + controle de evolução)
 
 ## Ajustes e melhorias
 
 Atualmente a tarefa abaixo está concluida e pronta para uso:
 
-- [x] Trabalho GA
+- [x] Trabalho GB projeto
 
 ## Referências e/ou créditos
 >
