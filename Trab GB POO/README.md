@@ -153,7 +153,6 @@ Independente do tema escolhido, o projeto deve atender todos os requisitos técn
   (5) Polimorfismo
 
   Demonstração de polimorfismo por meio de sobrescrita de métodos virtuais nas classes derivadas.
-
   <br>
   <br>
   (6) Alocação Dinâmica
