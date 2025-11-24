@@ -126,6 +126,7 @@ Independente do tema escolhido, o projeto deve atender todos os requisitos técn
 <br>
 
 - Requisitos Técnicos (Checklist):
+
   (1) Modelagem (Diagrama de Classes UML)
   
   Representar todas as classes, atributos, métodos e, principalmente, os relacionamentos (herança, associação etc.).
