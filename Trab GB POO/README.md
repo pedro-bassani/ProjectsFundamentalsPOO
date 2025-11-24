@@ -29,6 +29,7 @@ Regardless of the chosen theme, the project must meet all technical requirements
 <br>
 
 - Technical Requirements (Checklist):
+
   (1) Modeling (UML Class Diagram)
   
   The group must deliver a UML diagram representing all classes, attributes, methods, and — most importantly — all system relationships (inheritance, association, etc.).
