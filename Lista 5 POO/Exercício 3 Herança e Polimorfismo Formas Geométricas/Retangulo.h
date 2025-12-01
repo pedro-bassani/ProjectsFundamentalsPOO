@@ -3,14 +3,30 @@
 
 #include "FormaGeometrica.h"
 
-class Retangulo : public FormaGeometrica {
+class Retangulo : public FormaGeometrica
+{
 private:
-    double base_, altura_;
+    float base;
+    float altura;
 
 public:
-    Retangulo(double base, double altura);
-    double calcularArea() override;
-    double calcularPerimetro() override;
+
+    Retangulo(float b, float a)
+    {
+        base = b;
+        altura = a;
+        nome = "Retangulo";
+    }
+
+    float calcularArea() override
+    {
+        return base * altura;
+    }
+
+    float calcularPerimetro() override
+    {
+        return 2 * (base + altura);
+    }
 };
 
 #endif
